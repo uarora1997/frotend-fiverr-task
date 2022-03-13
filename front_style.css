@@ -1,0 +1,112 @@
+:root {
+--brand: #326bff;
+}
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section{
+	/*padding: 60px 0;*/
+}
+section .section-title{
+	text-align:center;
+	color:#007b5e;
+	margin-bottom:50px;
+	text-transform:uppercase;
+}
+#what-we-do{
+	background:#ffffff;
+}
+#what-we-do .card{
+	padding: 0px!important;
+	border: none;
+	margin-bottom:1rem;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+	box-shadow:1px 1px 10px #ccc;
+	border-radius: 7px;
+	margin: 15px 0;
+}
+#what-we-do .card:hover{
+	-webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+#what-we-do .card .card-block{
+	margin-left: 10px;
+	margin-top: 30px;
+    position: relative;
+}
+ a{
+	color: var(--brand);
+	font-weight:700;
+	text-decoration:none;
+}
+#what-we-do .card .card-block a i{
+	display:none;
+	
+}
+#what-we-do .card:hover .card-block a i{
+	display:inline-block;
+	font-weight:700;
+	
+}
+h3{
+   opacity: .9;
+}
+
+.myimg{
+	max-width: 80px;
+	max-height: 80px;
+	border-radius: 50%;
+	display: inline-block;
+	float: left;
+}
+
+.read-more:hover{
+   text-decoration: none !important;
+}
+
+.card-title
+{
+   color: black;
+}
+.card-text
+{
+   color: black;
+   text-decoration: none;
+   font-weight: 400;
+   margin-bottom: 10px !important;
+   /*margin-left: 73px;*/
+}
+/* #what-we-do .card .card-block:before{
+	content: url("https://www.seekpng.com/png/detail/65-653408_happy-girl-png-business-girls.png");
+   
+} */
+/* 
+#what-we-do .card .block-1:before{
+    content: "\f0e7";
+}
+#what-we-do .card .block-2:before{
+    content: "\f0eb";
+}
+#what-we-do .card .block-3:before{
+    content: "\f00c";
+}
+#what-we-do .card .block-4:before{
+    content: "\f209";
+}
+#what-we-do .card .block-5:before{
+    content: "\f0a1";
+}
+#what-we-do .card .block-6:before{
+    content: "\f218";
+} */
+#what-we-do .card:hover .card-block:before{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);	
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+   max-width: 100px;
+   max-height: 100px;
+}
